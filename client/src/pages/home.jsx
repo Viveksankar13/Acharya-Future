@@ -46,7 +46,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="bg-neo-white font-space min-h-screen">
+    <div className="bg-neo-white font-space min-h-screen m-0 p-0">
       {/* Futuristic Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-gray-200/50 elevation-2">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -96,13 +96,13 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center relative overflow-hidden pt-20">
+      <section id="hero" className="min-h-screen flex items-center relative overflow-hidden pt-20 pb-0">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-50"></div>
         </div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div className={`space-y-8 ${isVisible.hero ? 'animate-slide-up' : 'opacity-0'}`}>
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section id="services" className="py-24 bg-gradient-to-br from-gray-50 to-white">
+      <section id="services" className="py-16 bg-gradient-to-br from-gray-50 to-white -mt-1">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className={`text-center mb-20 ${isVisible.services ? 'animate-slide-up' : 'opacity-0'}`}>
             <Badge className="electric-purple text-white px-4 py-2 text-sm font-medium mb-6">

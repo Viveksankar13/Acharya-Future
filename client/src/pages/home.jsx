@@ -50,7 +50,7 @@ export default function Home() {
     <div className="bg-neo-white font-space min-h-screen m-0 p-0">
       {/* Futuristic Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-gray-200/50 elevation-2">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-auto mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <div className="flex items-center space-x-4">

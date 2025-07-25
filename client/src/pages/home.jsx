@@ -40,9 +40,10 @@ export default function Home() {
     { id: 'hero', label: 'Home', icon: '🏠' },
     { id: 'services', label: 'Services', icon: '⭐' },
     { id: 'astrology', label: 'Astrology', icon: '🔮' },
+    { id: 'calculator', label: 'Calculator', icon: '📊' },
     { id: 'palmistry', label: 'Palmistry', icon: '🤚' },
     { id: 'gemology', label: 'Gemology', icon: '💎' },
-    { id: 'calculator', label: 'Calculator', icon: '📊' },
+    { id: 'medical-palmistry', label: 'Medical Palmistry', icon: '🏥' },
   ];
 
   return (
@@ -318,7 +319,7 @@ export default function Home() {
       <ZodiacCalculator />
 
       {/* Palmistry Section */}
-      <section className="py-24 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white overflow-hidden">
+      <section id="palmistry" className="py-24 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="cyber-blue text-white px-4 py-2 text-sm font-medium mb-6">
@@ -443,7 +444,7 @@ export default function Home() {
       </section>
 
       {/* Gemology Section */}
-      <section className="py-24 bg-gradient-to-br from-emerald-900 via-teal-900 to-cyan-900 text-white overflow-hidden">
+      <section id="gemology" className="py-24 bg-gradient-to-br from-emerald-900 via-teal-900 to-cyan-900 text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-emerald-500/20 text-emerald-300 px-4 py-2 text-sm font-medium mb-6">
@@ -599,7 +600,7 @@ export default function Home() {
       </section>
 
       {/* Medical Palmistry Section */}
-      <section className="py-24 bg-gradient-to-br from-red-900 via-pink-900 to-purple-900 text-white overflow-hidden">
+      <section id="medical-palmistry" className="py-24 bg-gradient-to-br from-red-900 via-pink-900 to-purple-900 text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-red-500/20 text-red-300 px-4 py-2 text-sm font-medium mb-6">

@@ -150,8 +150,8 @@ export default function Home() {
                   <div className="w-full h-full bg-white/10 rounded-2xl backdrop-blur-sm border border-white/20 flex items-center justify-center">
                     <div className="text-center text-white space-y-4">
                       <div className="text-6xl animate-pulse-slow">🌌</div>
-                      <h3 className="font-orbitron font-bold text-2xl">Cosmic AI</h3>
-                      <p className="text-white/80">Powered by Quantum Analytics</p>
+                      <h3 className="font-orbitron font-bold text-2xl">Acharya</h3>
+                      <p className="text-white/80">Institute of Futurology</p>
                       <div className="grid grid-cols-3 gap-2 mt-4">
                         {['♈', '♉', '♊', '♋', '♌', '♍'].map((symbol, i) => (
                           <div key={i} className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center text-sm animate-hologram" style={{animationDelay: `${i * 0.5}s`}}>

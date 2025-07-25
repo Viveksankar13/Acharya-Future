@@ -2,11 +2,14 @@
 
 ## Overview
 
-This is a modern full-stack web application built with React, TypeScript, and Express.js, designed for creating astrology-related features. The application uses a monorepo structure with shared schemas and modern UI components.
+This is a futuristic, materialistic astrological web application for Acharya Institute of Futurology. Built with React JSX (not TypeScript), featuring cutting-edge design with quantum-inspired themes, AI-powered aesthetics, and modern glassmorphism effects. The application combines ancient astrological wisdom with next-generation technology visualization.
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- Preferred communication style: Simple, everyday language
+- Design style: Futuristic, materialistic UI with bright divine colors and god-like effects
+- Technology focus: Modern, interactive, and AI-enhanced user experience
+- Framework preference: React JSX (not TypeScript)
 
 ## System Architecture
 
@@ -81,8 +84,10 @@ Preferred communication style: Simple, everyday language.
 - **Development**: Replit-specific tooling for hot reload and debugging
 
 ### Astrology Features
+- **Zodiac Calculator**: Advanced quantum-inspired zodiac sign calculator with AI-enhanced processing visualization
 - **Zodiac Data**: Pre-configured zodiac sign information in `client/src/lib/zodiac-data.js`
-- **Specialized Content**: Application appears designed for astrology/divination services
+- **Futuristic Sections**: Hero section, Services overview, Astrology analysis, Palmistry, Gemology, and Medical Palmistry
+- **Interactive Elements**: Real-time cosmic insights, neural network visualizations, and holographic effects
 
 ## Deployment Strategy
 
